@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math quiz page 2</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
+    
+    <h3 id="Player1scorename">  </h3><span id="player1score">0</span>
+    <h3 id="Player2scorename">  </h3><span id="player2score">0</span>
+    <div class="container">
+        <center>
+            <h1>Math quiz</h1>
+            <h3 id="Playerqa"> Question Turn : </h3><span id="playername1"></span>
+            <h3 id="Playeraa"> Answer  Turn : </span></h3><span id="playername2"></span>
+            <br>
+            <br>
+            <div id="Worddisplay" class="col-lg-9 col-md-6 col-sm-9 col-xs-9">
+            </div>
+            <br>
+            <br>
+            <br>
+            <label><b style = "color:red"  >NOTE :</b>Send your question to the other player</label>
+            <input type="text" id = "word1" class="form-control" placeholder = "Type a number 1">
+            <br>
+            <br>
+            <input type="text" id = "word2" class="form-control" placeholder = "Type a number 2">
+            <br>
+            <br>
+            <button onclick="wordsend()" id="wordsend" class="btn btn-primary">Send</button>
+        </center>
+        </div>
+        <script src="quix.js"></script>
+    </body>   
+    </html>
